@@ -40,6 +40,8 @@ void experiment01()
 // --------------------------------------------------------------
 void experiment02()
 {
+    //decide whether a sting is a palindrome 
+    //(i.e. same text forward and backward)
     string s = "abaacaaba";
     cout << "Enter a string" << endl;
     getline(cin, s);
@@ -66,6 +68,7 @@ void experiment02()
 //--------------------------------------------------------
 void experiment03()
 {
+    //break dow a string into indivudual words
     string s = "Now is the time for all good men to come to the aid of the party";
     //cout << "Enter a string" << endl;
     //getline(cin, s);
